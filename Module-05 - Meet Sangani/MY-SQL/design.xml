@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/purple_500"
+        >
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firstname"/>
+
+
+    <TextView
+        android:id="@+id/txtlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lastname"/>
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+
+    <TextView
+        android:id="@+id/txtmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile"/>
+
+    <TextView
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pawssword"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
